@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      h1 {
+        color: red;
+      }
+      h1:hover {
+        color: black;
+      }
+      p::first-letter {
+        color: brown;
+        font-size: 45px;
+      }
+      p::first-line {
+        color: cadetblue;
+        font-family: cursive;
+      }
+      h3::before {
+        content: url("Image/clothesback.avif");
+        }
+      h3::after {
+        content: url("Image/Zomato.avif");
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Heading</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+    <h3>heading 3</h3>
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br />Fugiat
+      officia voluptatibus numquam aliquam deleniti perspiciatis quo enim sequi
+      atque, mollitia iste quasi neque repellendus<br />
+      provident dicta explicabo similique accusantium magnam?
+    </p>
+  </body>
+</html>

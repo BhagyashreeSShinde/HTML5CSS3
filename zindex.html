@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      box {
+        position: relative;
+      }
+      .box1 {
+        position: absolute;
+        width: 400px;
+        height: 400px;
+        z-index: 1;
+        box-shadow: 3px 3px 3px 3px rgb(136, 47, 47);
+      }
+      /* for form we want image 1st then we need form*/
+      .box2 {
+        position: absolute;
+        top: 56px;
+        left: 100px;
+        padding: 30px;
+        z-index: 2;
+        border: 2px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <div class="box1"></div>
+      <div class="box2">
+        <form>
+          <input type="text" placeholder="enter name" /><br /><br />
+          <input type="email" placeholder="enter email" /><br /><br />
+          <input type="password" placeholder="enter password" /><br /><br />
+          <input type="submit" value="submit" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

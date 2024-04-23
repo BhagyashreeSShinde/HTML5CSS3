@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    div p{
+      background-color: red;
+    }
+    div>p{
+      background-color: antiquewhite;
+    }
+    div+p{
+      color: rebeccapurple;
+    }
+    div~p{
+      border: 1px darkgoldenrod black;
+    }
+    div li{
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <!--Combinators types:1) descendant selector 2)child selector 3) adjacent sibling selector 4)general sibling selector-->
+  <div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p
+      <h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut unde ea facilis.</p></h2>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic dicta porro nostrum ipsam sunt aliquid.</p>
+  </div>
+  <P>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. In tempore delectus dolores cumque velit commodi placeat sunt, alias facere cupiditate minima amet dicta repellendus illo a. Repellendus, quaerat dolore voluptas animi repudiandae eos obcaecati nisi repellat sapiente, iste autem veritatis?
+  </P>
+  <div>
+    <ul>
+      <li>Home</li>
+      <li>Contact Us</li>
+      <li>Gmail</li>
+      <li>About</li>
+    </ul>
+  </div>
+  <ul>
+    <li>Home</li>
+    <li>Contact Us</li>
+    <li>Gmail</li>
+    <li>About</li>
+  </ul>
+  
+</body>
+</html>

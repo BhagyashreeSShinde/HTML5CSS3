@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-image: linear-gradient(
+          to left,
+          rgb(247, 103, 127),
+          rgb(245, 235, 236),
+          yellow
+        );
+        form {
+          width: 400px;
+          height: 300px;
+          border-radius: 12px;
+          margin-left: 400px;
+          text-align: center;
+          padding-top: 20px;
+          margin-top: 50px;
+          background-color: azure;
+        }
+        /*Attribute selector*/
+        input[type="text"] {
+          border: 0px;
+          border-bottom: 1px solid black;
+        }
+        input[type="password"] {
+          border: 0px;
+          border-bottom: 1px solid black;
+        }
+        input[type="submit"] {
+          width: 100px;
+          height: 30px;
+          color: white;
+          border-radius: 10px;
+          background-image: linear-gradient(to right, rgb(248, 110, 133), blue);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <h1>Registration Form</h1>
+      <label>Enter Name:</label><br /><br />
+      <input type="text" /><br /><br />
+      <label>Enter Password</label><br /><br />
+      <input type="password" /><br /><br />
+      <input type="submit" value="submit" />
+    </form>
+  </body>
+</html>
